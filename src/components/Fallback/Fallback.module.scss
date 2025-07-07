@@ -1,0 +1,33 @@
+// ------------------------------------------------------------------------------------------
+
+.container {
+	height: 100vh;
+	width: 100vw;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: grid;
+	place-content: center;
+	background-color: #0d0e13;
+	padding: 24px;
+	background-image: url(../../assets/textures/stars-milky-way.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	.headline {
+		color: #ffffff;
+		font-size: 32px;
+		font-weight: 500;
+		letter-spacing: 0.2px;
+	}
+
+	.description {
+		color: #ffffff80;
+		font-size: 14px;
+		font-weight: 400;
+		letter-spacing: 0.2px;
+	}
+}
+
+// ------------------------------------------------------------------------------------------

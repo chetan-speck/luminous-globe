@@ -1,0 +1,26 @@
+// ------------------------------------------------------------------------------------------
+
+.container {
+	position: relative;
+
+	.loader,
+	.canvas {
+		height: 100vh;
+		width: 100vw;
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-color: #0d0e13;
+	}
+
+	.canvas {
+		opacity: 0;
+		transition: 2400ms ease;
+
+		&.show {
+			opacity: 1;
+		}
+	}
+}
+
+// ------------------------------------------------------------------------------------------

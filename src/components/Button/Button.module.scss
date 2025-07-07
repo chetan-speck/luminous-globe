@@ -1,0 +1,33 @@
+// ------------------------------------------------------------------------------------------
+
+.container {
+	height: 40px;
+	width: 40px;
+	border-radius: 20px;
+	background-color: unset;
+	color: unset;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	-webkit-tap-highlight-color: transparent;
+	display: grid;
+	place-content: center;
+
+	svg {
+		fill: #ffffff;
+	}
+
+	@media (hover: hover) {
+		&:hover {
+			background-color: #80808040;
+		}
+	}
+
+	@media (hover: none) {
+		&:active {
+			background-color: #80808040;
+		}
+	}
+}
+
+// ------------------------------------------------------------------------------------------
